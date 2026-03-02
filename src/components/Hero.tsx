@@ -16,7 +16,7 @@ const Hero = () => (
       </p>
       <div className="mt-8 flex flex-col sm:flex-row gap-4">
         <span className="inline-block bg-accent text-accent-foreground font-bold px-6 py-3 rounded text-lg">
-          Maintain Your Elevator at Rs 2190/-*
+          Maintain Your Elevator at Rs 2199/-*
         </span>
         <a
           href="#contact"
