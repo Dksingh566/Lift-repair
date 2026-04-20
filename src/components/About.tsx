@@ -6,7 +6,8 @@ const About = () => (
       <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">About Us</h2>
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <p className="text-muted-foreground leading-relaxed md:flex-1">
-          Experienced elevator professionals specializing in repair, maintenance, and modernization. Trusted across residential, <strong>commercial & industrial buildings</strong>.
+          We are a dedicated lift repair and maintenance company focused on keeping your world moving—safely and smoothly.
+          With a commitment to quality, quick response, and reliable service, we ensure every lift we handle performs at its best. Because for us, it’s not just about fixing machines—it’s about delivering trust, safety, and peace of mind every single day.
         </p>
         <img
           src={aboutImg}
