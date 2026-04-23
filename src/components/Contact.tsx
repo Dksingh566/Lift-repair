@@ -21,9 +21,9 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row gap-10">
           {/* Left */}
           <div className="space-y-4 md:flex-1 text-primary-foreground/90">
-            <a href="tel:+917837167164" className="flex items-center gap-3 hover:text-accent transition-colors">
+            <a href="tel:+916283791011" className="flex items-center gap-3 hover:text-accent transition-colors">
               <Phone className="w-5 h-5 text-accent" />
-              <span>Call Us : +91 7837167164</span>
+              <span>Call Us : +91 6283791011</span>
             </a>
             <a href="mailto:info@liftrepair.in" className="flex items-center gap-3 hover:text-accent transition-colors">
               <Mail className="w-5 h-5 text-accent" />
@@ -43,7 +43,7 @@ const Contact = () => {
               try {
                 const fullMessage = `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nMessage: ${form.message}`;
                 const encodedMessage = encodeURIComponent(fullMessage);
-                window.location.href = `https://wa.me/917837167164?text=${encodedMessage}`;
+                window.location.href = `https://wa.me/916283791011?text=${encodedMessage}`;
               } catch (error) {
                 console.error("Error sending message on WhatsApp:", error);
               }
