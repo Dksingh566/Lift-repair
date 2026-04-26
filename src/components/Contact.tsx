@@ -27,11 +27,11 @@ const Contact = () => {
             </a>
             <a href="mailto:info@liftrepair.in" className="flex items-center gap-3 hover:text-accent transition-colors">
               <Mail className="w-5 h-5 text-accent" />
-              <span>Email : info@liftrepair.in</span>
+              <span>Email : Liftrepairinfo@gmail.com</span>
             </a>
             <p className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-accent" />
-              <span>Service Area : [Your City/Region]</span>
+              <span>Service Area : Chandigarh</span>
             </p>
           </div>
 
