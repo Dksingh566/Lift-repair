@@ -27,7 +27,7 @@ const Contact = () => {
             </a>
             <a href="mailto:info@liftrepair.in" className="flex items-center gap-3 hover:text-accent transition-colors">
               <Mail className="w-5 h-5 text-accent" />
-              <span>Email : Liftrepairinfo@gmail.com</span>
+              <span>Email : Liftrepairinfo@gmail.com </span>
             </a>
             <p className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-accent" />
@@ -81,7 +81,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-primary text-primary-foreground font-semibold py-2.5 rounded hover:brightness-110 transition"
               >
-                Send Message
+                Send Message 
               </button>
             </form>
           </div>
