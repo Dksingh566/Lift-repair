@@ -31,7 +31,7 @@ const Contact = () => {
             </a>
             <p className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-accent" />
-              <span>Service Area : Chandigarh</span>
+              <span>Service Area : Punjab/Haryana/Himachal Pardesh</span>
             </p>
           </div>
 
