@@ -4,7 +4,7 @@ const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
     try {
       const message = encodeURIComponent("Hi, I am interested in your elevator repair and maintenance services. Please share more details.");
-      window.location.href = `https://wa.me/917837167164?text=${message}`;
+      window.location.href = `https://wa.me/916283791011?text=${message}`;
     } catch (error) {
       console.error("Error opening WhatsApp:", error);
     }
